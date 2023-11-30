@@ -1,5 +1,7 @@
 import "./header.css"
 import {InlineButton} from "../inline-button/inline-button";
+import {useContext} from "react";
+import {AuthContext} from "../../context";
 
 export function Header<T>(
             {
@@ -10,6 +12,7 @@ export function Header<T>(
                 clickListener: (a : T | undefined) => void
             }
     ) {
+    const auth = useContext(AuthContext);
     return (
         <header className={"header"}>
             <ul className="header__nav">
