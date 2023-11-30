@@ -9,7 +9,8 @@ export function Welcome(){
         <Container>
             <div className={"a12 l6 m6"}>
                 <h1 className={"center bold"}>PAXUX</h1>
-                <p className={"center sparse big"}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p className={"center sparse big"}>"Управляйте вашим салоном красоты и здоровья с легкостью. Эффективно
+                    организуйте записи, управляйте персоналом и привлекайте больше клиентов с нашим веб-сервисом."</p>
 
             </div>
             <div className={"flex center dir-column wide a6 xs12 s12"}>

@@ -25,11 +25,7 @@ export function App(){
                         {
                             name: "Поддержка",
                             filling: "hello"
-                        },
-                        {
-                            name: "Вход",
-                            filling: "hello"
-                        },
+                        }
                     ]} clickListener={(x?: string)=>{alert(x); return undefined;}}/>
 
 
