@@ -30,10 +30,12 @@ export function Header<T>(
             <span className={"header__label"}>
                 {label}
             </span>
-                <ul className={"header__nav"}>
+Ht                <ul className={"s0 xs0"}>
                     {
                         items.map(x => <li> <InlineButton text={x.name} filling={x.filling!} clickListener={clickListener}/> </li>)
                     }
+                </ul>
+                <ul>
                     {profile}
                 </ul>
             </header>

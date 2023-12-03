@@ -44,7 +44,6 @@
     }
 }
 
-/* md-устройства (больше или равно 768px) */
 @media (min-width: 768px) and (max-width: 991px) {
     .s12{
         grid-column: 12 span;
@@ -63,7 +62,6 @@
     }
 }
 
-/* lg-устройства (больше или равно 992px) */
 @media (min-width: 992px) and (max-width: 1199px) {
     .m12{
         grid-column: 12 span;
@@ -82,7 +80,6 @@
     }
 }
 
-/* xl-устройства (больше или равно 1200px) */
 @media (min-width: 1200px) {
     .l12{
         grid-column: 12 span;
